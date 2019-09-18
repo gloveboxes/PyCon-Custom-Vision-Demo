@@ -1,6 +1,6 @@
 version: '3'
 services:
-  web:
+  rest:
     container_name: pycon-custom-vision
     build: .
     ports:
