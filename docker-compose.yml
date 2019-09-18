@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    container_name: pycon-custom-vision
+    build: .
+    ports:
+      - "127.0.0.1:80:80"
